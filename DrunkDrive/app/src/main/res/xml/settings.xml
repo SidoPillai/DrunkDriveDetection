@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="threshold"
+        android:summary="Enter Threshold of value Sensor"
+        android:dialogTitle="Enter the Threshold value"
+        android:dialogMessage="Enter Maximum Threshold"
+        android:title="Maximum threshold Value" />
+    <EditTextPreference
+        android:key="message"
+        android:summary="Enter The Message to be sent"
+        android:dialogTitle="Custom Message to be sent"
+        android:dialogMessage="Enter Message Content"
+        android:title="Enter Message Content" />
+    <EditTextPreference
+        android:key="pass"
+        android:summary="Enter The Password to be Sent With the Message"
+        android:dialogTitle="The password to be sent to recipient"
+        android:dialogMessage="Enter Password"
+        android:title="Enter Password" />
+    <EditTextPreference
+        android:key="delay"
+        android:summary="Select Delay after postive trigger in Milli Seconds"
+        android:dialogTitle="Delay for message after the Detection"
+        android:dialogMessage="Enter Delay Value"
+        android:title="Enter Delay" />
+    <CheckBoxPreference
+        android:summary="Enable GPS Co-Ordinates to be attached in Message"
+        android:title="Enable GPS Access"
+        android:key="gps" />
+
+</PreferenceScreen>
